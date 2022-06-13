@@ -8,7 +8,14 @@ function Projects() {
       <h1>My Personal Projects</h1>
       <div className={styles.projectList}>
         {ProjectList.map((obj) => {
-          return <ProjectItem name={obj.name} image={obj.image} key={obj.id} />;
+          return (
+            <ProjectItem
+              name={obj.name}
+              image={obj.image}
+              key={obj.id}
+              id={obj.id}
+            />
+          );
         })}
       </div>
     </div>
