@@ -1,8 +1,8 @@
-$maxWidth: 1080; // Размер полотна из макета
-$maxWidthDesktop: 1024; // Размер полотна для ПК
-$maxWidthTablet: 768; // Размер полотна для планшета
-$maxWidthMobile: 320; // Размер полотна для мобильных устройств
-$maxWidthContainer: 1080; // Размер контейнера
+$maxWidth: 1400;          // Размер полотна из макета
+$maxWidthDesktop: 1024;   // Размер полотна для ПК
+$maxWidthTablet: 768;     // Размер полотна для планш.
+$maxWidthMobile: 320;     // Размер полотна для моб.
+$maxWidthContainer: 1440; // Размер контейнера
 
 @mixin adaptive-value-desktop($property, $startSize, $minSize, $type) {
   $addSize: $startSize - $minSize;

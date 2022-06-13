@@ -24,17 +24,18 @@ P.S. Used as a server [mockAPI](https://mockapi.io)
 * [Production](https://github.com/Exigoll/timberland/tree/gh-pages)
 
 ## Technology stack
-* React ver. 18.0
+* React ver. 18.0 +
 * React Hooks:
-    * useState()
-    * useEffect()
+    * useState() +
+    * useEffect() +
     * useContext()
     * custom hook UseCart()
-* ESLing / Prettier
+    * *useLocation() +
+* ESLing / Prettier +
 * RestAPI: Axios / Fetch
 * mockAPI
-* SCSS / module SCSS
-* React Skeleton
+* SCSS / module SCSS +
+* materialUI +
 
 ## Contacts info
 * Location: city of Perm
