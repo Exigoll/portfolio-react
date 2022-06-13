@@ -28,7 +28,7 @@ function Navbar() {
         </button>
       </div>
       <nav className={styles.links}>
-        <Link className={styles.menu__link} to="/home">
+        <Link className={styles.menu__link} to="/">
           Home
         </Link>
         <Link className={styles.menu__link} to="/projects">
@@ -40,17 +40,17 @@ function Navbar() {
         {/* <ul className={styles.menu__list}>
           <li className={styles.menu__item}>
             <Link className={styles.menu__link} to="/home">
-              Home
+              Index
             </Link>
           </li>
           <li className={styles.menu__item}>
             <Link className={styles.menu__link} to="/projects">
-              Projects
+              Index
             </Link>
           </li>
           <li className={styles.menu__item}>
             <Link className={styles.menu__link} to="/experience">
-              Experience
+              Index
             </Link>
           </li>
         </ul> */}

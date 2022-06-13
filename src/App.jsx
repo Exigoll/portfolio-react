@@ -1,12 +1,12 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./scss/app.scss";
 
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
