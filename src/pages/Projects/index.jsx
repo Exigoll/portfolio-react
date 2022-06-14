@@ -5,7 +5,7 @@ import ProjectList from "../../helpers/ProjectsList";
 function Projects() {
   return (
     <div className={styles.projects}>
-      <h1>My Personal Projects</h1>
+      <h1 className={styles.projects__title}>My Personal Projects</h1>
       <div className={styles.projectList}>
         {ProjectList.map((obj) => {
           return (

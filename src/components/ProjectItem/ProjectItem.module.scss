@@ -1,11 +1,11 @@
 @import "../../scss/all";
 
 .projectItem {
+  display: flex;
+  flex-direction: column;
   border-radius: 15px;
   width: 300px;
-  height: 300px;
-  margin: 40px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
@@ -27,6 +27,7 @@
 
 .projectItem h1 {
   font-size: 25px;
+  padding: 36px 0;
 }
 
 .projectTitle {

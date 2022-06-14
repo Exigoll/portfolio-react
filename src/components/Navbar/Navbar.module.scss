@@ -7,7 +7,7 @@
   background-color: $colorMain;
 
   .menu__link {
-    color: white;
+    color: $colorWhite;
     text-decoration: none;
     font-size: 25px;
     transition: .2s ease-in-out;
@@ -50,7 +50,7 @@
     margin-right: 20px;
     background-color: transparent;
     border: none;
-    color: white;
+    color: $colorWhite;
     cursor: pointer;
   }
 }
@@ -64,7 +64,7 @@
     flex-direction: column;
     justify-content: center;
     row-gap: 30px;
-    height: 90vh;
+    height: 92vh;
     background: $colorMain;
     z-index: 10;
   }

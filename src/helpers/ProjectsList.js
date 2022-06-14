@@ -5,7 +5,7 @@ import Project3 from "../assets/project-3.jpg";
 const ProjectList = [
   {
     id: "0",
-    name: "Timberland: Glasses shop",
+    name: "Timberland shop",
     image: Project1,
     linkDeploy: "https://exigoll.github.io/timberland/",
     linkDev: "https://github.com/Exigoll/timberland",
