@@ -31,6 +31,9 @@ function Navbar() {
         <Link className={styles.menu__link} to="/">
           Home
         </Link>
+        <Link className={styles.menu__link} to="/skills">
+          Skills
+        </Link>
         <Link className={styles.menu__link} to="/projects">
           Projects
         </Link>
