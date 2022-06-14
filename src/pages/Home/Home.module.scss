@@ -9,13 +9,14 @@
 }
 
 .about {
-  width: 100%;
-  height: calc(100vh - 219px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   row-gap: 30px;
+  width: 100%;
+  height: calc(100vh - 219px);
+  padding: 0 25px;
   text-align: center;
   background-color: $colorMain;
   color: $colorSecondary;
@@ -24,6 +25,7 @@
     font-family: $fontSegoe;
     @include adaptive-value("font-size", 80, 40, 1);
     color: $colorHomeTitle;
+    font-weight: 500;
   }
 }
 

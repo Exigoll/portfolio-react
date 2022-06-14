@@ -59,15 +59,14 @@
   height: 100vh;
 
   .links {
+    position: absolute;
+    top: 70px;
     flex-direction: column;
     justify-content: center;
     row-gap: 30px;
     height: 90vh;
-    /*    margin-top: -100px;*/
-    position: absolute;
-    top: 70px;
-    z-index: 10;
     background: $colorMain;
+    z-index: 10;
   }
 
   .menu__link {
@@ -81,11 +80,5 @@
     @media (max-width: em(768)) {
       display: none;
     }
-  }
-}
-
-.hiddenLinks {
-  @media (max-width: em(768)) {
-    display: none;
   }
 }
