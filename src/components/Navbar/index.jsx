@@ -40,23 +40,6 @@ function Navbar() {
         <Link className={styles.menu__link} to="/experience">
           Experience
         </Link>
-        {/* <ul className={styles.menu__list}>
-          <li className={styles.menu__item}>
-            <Link className={styles.menu__link} to="/home">
-              Index
-            </Link>
-          </li>
-          <li className={styles.menu__item}>
-            <Link className={styles.menu__link} to="/projects">
-              Index
-            </Link>
-          </li>
-          <li className={styles.menu__item}>
-            <Link className={styles.menu__link} to="/experience">
-              Index
-            </Link>
-          </li>
-        </ul> */}
       </nav>
     </div>
   );
