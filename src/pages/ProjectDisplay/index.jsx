@@ -10,9 +10,15 @@ function ProjectDisplay() {
   const project = ProjectList[id];
   return (
     <div className={styles.project}>
-      <h1>{project.name}</h1>
-      <img src={project.image} alt="Project" />
+      <h1 className={styles.project__title}>{project.name}</h1>
       <a href={project.linkDeploy} target="_blank" rel="noreferrer">
+        <img
+          className={styles.project__img}
+          src={project.image}
+          alt="Project"
+        />
+      </a>
+      <a href={project.linkDev} target="_blank" rel="noreferrer">
         <GitHub />
       </a>
       <p>

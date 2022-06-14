@@ -16,12 +16,12 @@ function ProjectItem({ name, image, id }) {
       onClick={() => navigate(`/project/${id}`)}
     >
       <div
-        className={styles.bgImage}
+        className={styles.projectItem__img}
         style={{
           backgroundImage: `url(${image})`,
         }}
       />
-      <h1 className={styles.projectTitle}>{name}</h1>
+      <h1 className={styles.projectItem__title}>{name}</h1>
     </div>
   );
 }

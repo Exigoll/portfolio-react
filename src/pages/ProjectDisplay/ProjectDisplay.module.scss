@@ -2,30 +2,40 @@
 
 .project {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
+  row-gap: 18px;
+  color: $colorMain;
 
-.project h1 {
-  margin-top: 50px;
-  color: #3e497a;
-  font-size: 35px;
-}
+  &__title {
+    @include adaptive-value("font-size", 35, 30, 0);
+    font-weight: 700;
+  }
 
-.project img {
-  width: 700px;
-  border-radius: 10px;
-}
+  &__img {
+    @include adaptive-value("width", 500, 300, 0);
+    border-radius: 10px;
+    transition: .3s ease-in-out;
 
-.project p {
-  font-size: 40px;
-  color: #3e497a;
-}
+    &:hover {
+      opacity: .6;
+      transform: scale(1.01);
+    }
+  }
 
-.project svg {
-  font-size: 60px;
-  color: #3e497a;
+  p {
+    @include adaptive-value("font-size", 30, 20, 0);
+  }
+
+  svg {
+    @include adaptive-value("font-size", 40, 30, 0);
+    transition: .3s ease-in-out;
+
+    &:hover {
+      opacity: .5;
+    }
+  }
 }
