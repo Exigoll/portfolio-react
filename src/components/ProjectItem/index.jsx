@@ -2,11 +2,12 @@ import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import styles from "./ProjectItem.module.scss";
 
-function ProjectItem({ name, image, id }) {
+function ProjectItem({ name, image, id, status }) {
   ProjectItem.propTypes = {
     name: PropTypes.node.isRequired,
     image: PropTypes.node.isRequired,
     id: PropTypes.node.isRequired,
+    status: PropTypes.node.isRequired,
   };
   const navigate = useNavigate();
 
@@ -21,7 +22,12 @@ function ProjectItem({ name, image, id }) {
           backgroundImage: `url(${image})`,
         }}
       />
-      <h1 className={styles.projectItem__title}>{name}</h1>
+      <div className={styles.projectItem__wrapper}>
+        <h1 className={styles.projectItem__title}>{name}</h1>
+        <p className={styles.projectItem__status}>
+          <span>Status:</span> {status}
+        </p>
+      </div>
     </div>
   );
 }

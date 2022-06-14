@@ -1,12 +1,9 @@
-import Project1 from "../assets/project-1.jpg";
-import Project2 from "../assets/project-2.jpg";
-import Project3 from "../assets/project-3.jpg";
-
 const ProjectList = [
   {
     id: "0",
     name: "Timberland shop",
-    image: Project1,
+    status: "Ready",
+    image: "https://i.ibb.co/ctkVrZG/project-1.jpg",
     linkDeploy: "https://exigoll.github.io/timberland/",
     linkDev: "https://github.com/Exigoll/timberland",
     type: "SPA",
@@ -15,19 +12,32 @@ const ProjectList = [
   {
     id: "1",
     name: "My first portfolio",
-    image: Project2,
+    status: "Ready",
+    image: "https://i.ibb.co/wrtW7Yj/project-2.jpg",
     linkDeploy: "https://exigoll.github.io/CV/",
     linkDev: "https://github.com/Exigoll/CV",
-    type: "Landing",
+    type: "Landing page",
     skills: "JS Vanilla, HTML, SCSS",
   },
   {
     id: "2",
-    name: "Clone VK",
-    image: Project3,
-    linkDeploy: "https://exigoll.github.io/CV/",
+    name: "This portfolio",
+    status: "Ready",
+    image: "https://i.ibb.co/pxtBLJp/project-4.jpg",
+    linkDeploy: "https://exigoll.github.io/portfolio-react/",
+    linkDev: "https://github.com/Exigoll/portfolio-react",
     type: "SPA",
-    skills: "React, SCSS, ",
+    skills: "React, SCSS",
+  },
+  {
+    id: "3",
+    name: "Clone VK",
+    status: "In work",
+    image: "https://i.ibb.co/28w1TL3/project-3.jpg",
+    linkDeploy: "https://exigoll.github.io/vc",
+    linkDev: "https://github.com/Exigoll/CV",
+    type: "SPA",
+    skills: "React, SCSS",
   },
 ];
 

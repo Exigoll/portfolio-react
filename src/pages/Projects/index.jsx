@@ -14,6 +14,7 @@ function Projects() {
               image={obj.image}
               key={obj.id}
               id={obj.id}
+              status={obj.status}
             />
           );
         })}

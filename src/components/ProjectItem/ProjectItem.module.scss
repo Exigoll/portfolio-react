@@ -14,6 +14,10 @@
     cursor: pointer;
   }
 
+  &__wrapper {
+    padding: 25px 0;
+  }
+
   &__img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -25,10 +29,17 @@
   }
 
   &__title {
-    padding: 36px 0;
     font-size: 24px;
     font-weight: 700;
     color: $colorMain;
     text-align: center;
+  }
+
+  &__status {
+    padding-top: 5px;
+
+    span {
+      font-style: italic;
+    }
   }
 }
