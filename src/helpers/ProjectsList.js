@@ -39,6 +39,16 @@ const ProjectList = [
     type: "SPA",
     skills: "React, SCSS",
   },
+  {
+    id: "4",
+    name: "Calculator TS",
+    status: "In work",
+    image: "https://i.ibb.co/DRfNcw4/project-5.jpg",
+    linkDeploy: "https://exigoll.github.io/calculator-TS/",
+    linkDev: "https://github.com/Exigoll/calculator-TS",
+    type: "SPA",
+    skills: "React, TypeScript, StyledComponent",
+  },
 ];
 
 export default ProjectList;
