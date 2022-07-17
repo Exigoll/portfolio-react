@@ -8,9 +8,9 @@ function Skills() {
         <li className={styles.listSkills__item}>
           <h2 className={styles.listSkills__title}>Front-End:</h2>
           <span>
-            React, Redux, Redux Saga, Next.js, Formik, React Hook Form,
-            MaterialUI, SCSS, TailwindCSS, StyledComponents, StyledModules,
-            HTML5
+            React, Redux, Redux Toolkit, Redux Saga, Next.js, Formik, React Hook
+            Form, MaterialUI, SCSS, TailwindCSS, StyledComponents,
+            StyledModules, HTML5
           </span>
         </li>
         <li className={styles.listSkills__item}>
