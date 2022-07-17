@@ -31,16 +31,6 @@ const ProjectList = [
   },
   {
     id: "3",
-    name: "Clone VK",
-    status: "In work",
-    image: "https://i.ibb.co/28w1TL3/project-3.jpg",
-    linkDeploy: "https://exigoll.github.io/ssss",
-    linkDev: "https://github.com/Exigoll/ssss",
-    type: "SPA",
-    skills: "React, SCSS",
-  },
-  {
-    id: "4",
     name: "Calculator TS",
     status: "Ready",
     image: "https://i.ibb.co/F5QyBxF/project-5.png",
@@ -48,16 +38,6 @@ const ProjectList = [
     linkDev: "https://github.com/Exigoll/calculator-TS",
     type: "SPA",
     skills: "React, TypeScript, StyledComponent",
-  },
-  {
-    id: "5",
-    name: "GH-search",
-    status: "Ready",
-    image: "https://i.ibb.co/2ZmvTZf/project-6.png",
-    linkDeploy: "https://exigoll.github.io/gh-search",
-    linkDev: "https://github.com/Exigoll/gh-search",
-    type: "SPA",
-    skills: "React, Redux, TypeScript, TailWind",
   },
 ];
 
