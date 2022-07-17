@@ -43,11 +43,21 @@ const ProjectList = [
     id: "4",
     name: "Calculator TS",
     status: "Ready",
-    image: "https://i.ibb.co/WDpF71y/project-5.png",
+    image: "https://i.ibb.co/F5QyBxF/project-5.png",
     linkDeploy: "https://exigoll.github.io/calculator-TS/",
     linkDev: "https://github.com/Exigoll/calculator-TS",
     type: "SPA",
     skills: "React, TypeScript, StyledComponent",
+  },
+  {
+    id: "5",
+    name: "GH-search",
+    status: "Ready",
+    image: "https://i.ibb.co/2ZmvTZf/project-6.png",
+    linkDeploy: "https://exigoll.github.io/search-video-on-youtube",
+    linkDev: "https://github.com/Exigoll/search-video-on-youtube",
+    type: "SPA",
+    skills: "React, Redux, TypeScript, TailWind",
   },
 ];
 
