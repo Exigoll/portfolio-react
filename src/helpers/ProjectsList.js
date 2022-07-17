@@ -42,8 +42,8 @@ const ProjectList = [
   {
     id: "4",
     name: "Calculator TS",
-    status: "In work",
-    image: "https://i.ibb.co/DRfNcw4/project-5.jpg",
+    status: "Ready",
+    image: "https://i.ibb.co/WDpF71y/project-5.png",
     linkDeploy: "https://exigoll.github.io/calculator-TS/",
     linkDev: "https://github.com/Exigoll/calculator-TS",
     type: "SPA",
