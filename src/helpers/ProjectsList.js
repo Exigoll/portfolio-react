@@ -7,7 +7,7 @@ const ProjectList = [
     linkDeploy: "https://exigoll.github.io/timberland/",
     linkDev: "https://github.com/Exigoll/timberland",
     type: "SPA",
-    skills: "React, REST API, SCSS",
+    skills: "React, REST API, styledComponent",
   },
   {
     id: "1",
@@ -31,13 +31,23 @@ const ProjectList = [
   },
   {
     id: "3",
-    name: "Calculator TS",
+    name: "Calculator",
     status: "Ready",
     image: "https://i.ibb.co/F5QyBxF/project-5.png",
     linkDeploy: "https://exigoll.github.io/calculator-TS/",
     linkDev: "https://github.com/Exigoll/calculator-TS",
     type: "SPA",
     skills: "React, TypeScript, StyledComponent",
+  },
+  {
+    id: "4",
+    name: "Netflix",
+    status: "In work",
+    image: "https://i.ibb.co/JBVLmHc/project-4.png",
+    linkDeploy: "https://exigoll.github.io/netflix-next.js-ts",
+    linkDev: "https://github.com/Exigoll/netflix-next.js-ts",
+    type: "SPA",
+    skills: "Next.js, TypeScript, Tailwind, REST API",
   },
 ];
 
