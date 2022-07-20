@@ -7,7 +7,7 @@ const ProjectList = [
     linkDeploy: "https://exigoll.github.io/timberland/",
     linkDev: "https://github.com/Exigoll/timberland",
     type: "SPA",
-    skills: "React, REST API, styledComponent",
+    skills: "React, REST API, Styled-components",
   },
   {
     id: "1",
@@ -27,7 +27,7 @@ const ProjectList = [
     linkDeploy: "https://exigoll.github.io/portfolio-react/",
     linkDev: "https://github.com/Exigoll/portfolio-react",
     type: "SPA",
-    skills: "React, SCSS",
+    skills: "React, CSS Modules",
   },
   {
     id: "3",
@@ -37,7 +37,7 @@ const ProjectList = [
     linkDeploy: "https://exigoll.github.io/calculator-TS/",
     linkDev: "https://github.com/Exigoll/calculator-TS",
     type: "SPA",
-    skills: "React, TypeScript, StyledComponent",
+    skills: "React, TypeScript, Styled-components",
   },
   {
     id: "4",
