@@ -49,6 +49,16 @@ const ProjectList = [
     type: "SPA",
     skills: "Next.js, TypeScript, Tailwind, REST API",
   },
+  {
+    id: "5",
+    name: "Cafe: PizzaMan",
+    status: "In work",
+    image: "https://i.ibb.co/YDkkHVy/project-6.png",
+    linkDeploy: "https://exigoll.github.io/pizzaman-clone",
+    linkDev: "https://github.com/Exigoll/pizzaman-clone",
+    type: "SPA",
+    skills: "React, TypeScript, CSS Modules, REST API",
+  },
 ];
 
 export default ProjectList;
