@@ -44,7 +44,7 @@ const ProjectList = [
     name: "Netflix",
     status: "In work",
     image: "https://i.ibb.co/JBVLmHc/project-4.png",
-    linkDeploy: "https://exigoll.github.io/netflix-next-ts",
+    linkDeploy: "https://netflix-next-ts.vercel.app/",
     linkDev: "https://github.com/Exigoll/netflix-next-ts",
     type: "SPA",
     skills: "Next.js, TypeScript, Tailwind, REST API",
