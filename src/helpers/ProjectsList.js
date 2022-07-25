@@ -43,7 +43,7 @@ const ProjectList = [
     id: "4",
     name: "Netflix",
     status: "In work",
-    image: "https://i.ibb.co/JBVLmHc/project-4.png",
+    image: "https://i.ibb.co/sscDfPh/project-4.png",
     linkDeploy: "https://netflix-next-ts.vercel.app/",
     linkDev: "https://github.com/Exigoll/netflix-next-ts",
     type: "SPA",
